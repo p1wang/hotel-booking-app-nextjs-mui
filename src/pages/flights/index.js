@@ -8,6 +8,14 @@ import { useState } from "react";
 import { useMediaQuery, createTheme } from "@mui/material";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
+import calgaryPhoto from "../../assets/images/cities/calgary.png";
+import montrealPhoto from "../../assets/images/cities/montreal.jpeg";
+import ottawaPhoto from "../../assets/images/cities/ottawa.jpeg";
+import quebecPhoto from "../../assets/images/cities/quebec.webp";
+import torontoPhoto from "../../assets/images/cities/toronto.webp";
+import vancouverPhoto from "../../assets/images/cities/vancouver.jpeg";
+import winnipegPhoto from "../../assets/images/cities/winnipeg.jpeg";
+
 export default function Flights({ properties }) {
   const theme = createTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
@@ -51,51 +59,37 @@ const sampleProperties = {
   hits: [
     {
       id: 10000,
-      coverPhoto: {
-        url: "https://propelenergytech.com/wp-content/uploads/2017/02/Calgary-Skyline-w.-Vignette.jpg",
-      },
+      coverPhoto: calgaryPhoto,
       cityName: "Calgary",
     },
     {
       id: 10001,
-      coverPhoto: {
-        url: "https://www.travelanddestinations.com/wp-content/uploads/2017/08/Toronto-Skyline-at-Sunset.jpg",
-      },
+      coverPhoto: torontoPhoto,
       cityName: "Toronto",
     },
     {
       id: 10002,
-      coverPhoto: {
-        url: "https://static.temblor.net/wp-content/uploads/2021/03/vancouver-4585887_960_720.jpg",
-      },
+      coverPhoto: vancouverPhoto,
       cityName: "Vancouver",
     },
     {
       id: 10003,
-      coverPhoto: {
-        url: "https://media.istockphoto.com/photos/cityscape-reflection-of-montreal-city-picture-id172414141?k=20&m=172414141&s=612x612&w=0&h=t3IN13ZFVP35xduExMHAheE5xv5IayjOrCWG8PNmnZU=",
-      },
+      coverPhoto: montrealPhoto,
       cityName: "Montreal",
     },
     {
       id: 10004,
-      coverPhoto: {
-        url: "https://www.worldatlas.com/r/w1200/upload/8a/bd/38/shutterstock-154975961.jpg",
-      },
+      coverPhoto: quebecPhoto,
       cityName: "Quebec City",
     },
     {
       id: 10005,
-      coverPhoto: {
-        url: "https://www.winnipegperiodontist.com/wp-content/uploads/2017/01/winnipeg-skyline-canada.jpg",
-      },
+      coverPhoto: winnipegPhoto,
       cityName: "Winnipeg",
     },
     {
       id: 10006,
-      coverPhoto: {
-        url: "https://media.istockphoto.com/photos/scenic-water-view-of-parliament-hill-ottawa-ontario-canada-picture-id147454466?k=20&m=147454466&s=612x612&w=0&h=D13Hnnl_w0QIryV_8jTepPxGzE3OYIbhIypILZo4vcI=",
-      },
+      coverPhoto: ottawaPhoto,
       cityName: "Ottawa",
     },
   ],

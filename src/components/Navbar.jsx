@@ -12,7 +12,7 @@ import Link from "next/link";
 import { Link as MuiLink } from "@mui/material";
 import Image from "next/image";
 
-import logo from "../assets/images/generic-logo.svg";
+import logo from "../assets/images/logos/generic-logo.svg";
 
 const pages = [
   { name: "Flights", path: "/flights" },

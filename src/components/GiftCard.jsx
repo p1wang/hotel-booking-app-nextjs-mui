@@ -1,7 +1,7 @@
 import { Box, createTheme, Paper, Typography } from "@mui/material";
 import Image from "next/image";
 
-import logo from "../assets/images/generic-logo.svg";
+import logo from "../assets/images/logos/generic-logo.svg";
 
 export default function GiftCard({ item }) {
   const theme = createTheme();

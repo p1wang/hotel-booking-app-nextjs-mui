@@ -1,17 +1,17 @@
 import { Container, Grid } from "@mui/material";
 import Image from "next/image";
 
-import westjet from "../assets/images/westjet.svg";
-import travelAdvisors from "../assets/images/travel-advisors-1.svg";
-import food from "../assets/images/food.svg";
-import henrosaHotel from "../assets/images/henrosa-hotel.svg";
-import tobysBar from "../assets/images/toby-s-bar-restaurant.svg";
-import fourSeasons from "../assets/images/four-seasons.svg";
-import callaway from "../assets/images/callaway-golf.svg";
-import iams from "../assets/images/iams-pet-foods.svg";
+import westjet from "../assets/images/logos/westjet.svg";
+import travelAdvisors from "../assets/images/logos/travel-advisors-1.svg";
+import food from "../assets/images/logos/food.svg";
+import henrosaHotel from "../assets/images/logos/henrosa-hotel.svg";
+import tobysBar from "../assets/images/logos/toby-s-bar-restaurant.svg";
+import fourSeasons from "../assets/images/logos/four-seasons.svg";
+import callaway from "../assets/images/logos/callaway-golf.svg";
+import iams from "../assets/images/logos/iams-pet-foods.svg";
 
 const Partners = () => {
-  console.log(iams);
+  // console.log(iams);
   const partners = [
     westjet,
     travelAdvisors,

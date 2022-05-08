@@ -1,7 +1,8 @@
 import { Container, Typography, Box, createTheme } from "@mui/material";
+import Image from "next/image";
 
 const PopularCities = ({ properties }) => {
-  console.log(properties);
+  // console.log(properties);
 
   const theme = createTheme();
 
@@ -18,18 +19,24 @@ const PopularCities = ({ properties }) => {
       }}
     >
       {properties.hits?.map((property) => (
-        <Box sx={{ padding: "10px" }} key={property.id}>
-          <img
-            height="100px"
-            width="150px"
-            src={property.coverPhoto.url}
-            alt="cover photo"
-            style={{
+        <Box sx={{ margin: "10px" }} key={property.id}>
+          <Box
+            sx={{
               borderRadius: "5px",
-              objectFit: "cover",
+              overflow: "hidden",
               cursor: "pointer",
+              width: "150px",
+              height: "100px",
+              position: "relative",
             }}
-          />
+          >
+            <Image
+              src={property.coverPhoto}
+              alt="cover photo"
+              layout="fill"
+              objectFit="cover"
+            />
+          </Box>
           <Typography>{property.cityName}</Typography>
         </Box>
       ))}

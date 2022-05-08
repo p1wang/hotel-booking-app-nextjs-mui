@@ -2,7 +2,7 @@ import { Container, Divider, Typography } from "@mui/material";
 import Image from "next/image";
 import { Box } from "@mui/system";
 
-import logo from "../assets/images/generic-logo.svg";
+import logo from "../assets/images/logos/generic-logo.svg";
 
 const SloganSection = () => {
   return (

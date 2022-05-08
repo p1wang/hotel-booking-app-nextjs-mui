@@ -13,7 +13,7 @@ import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import CardGiftcardOutlinedIcon from "@mui/icons-material/CardGiftcardOutlined";
 import Image from "next/image";
 
-import logo from "../assets/images/generic-logo.svg";
+import logo from "../assets/images/logos/generic-logo.svg";
 
 const pages = [
   "Products",
