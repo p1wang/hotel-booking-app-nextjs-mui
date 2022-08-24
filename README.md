@@ -1,3 +1,6 @@
+<img width="1405" alt="hotel-booking" src="https://user-images.githubusercontent.com/59746714/186517443-a0b82be1-d24e-4f54-b35a-1df87f65781e.png">
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
